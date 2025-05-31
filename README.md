@@ -19,6 +19,6 @@ Bu proje, Hamming SEC-DED (Single Error Correcting, Double Error Detecting) algo
 1. Projeyi klonlayın veya indirin:
    ```bash
    git clone https://github.com/kullaniciadi/hamming-sec-ded-simulator.git
-       ```
+   ```
 
 
