@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hamming SEC-DED Kod Simülatörü</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    label, input, button { margin-top: 10px; display: block; }
+    #results { margin-top: 20px; border: 1px solid #ccc; padding: 15px; width: 400px; }
+    h1 { font-size: 24px; }
+    .bold { font-weight: bold; margin-top: 10px; }
+    input[type="text"] { width: 300px; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Hamming SEC-DED Kod Simülatörü</h1>
+
+  <label>Veri Girin (8, 16 veya 32 bit, örneğin 10101010):</label>
+  <input type="text" id="dataInput" placeholder="Veri girin">
+  <label><input type="checkbox" id="injectError" checked> Rastgele Hatayı Tanıtın:</label>
+  <button onclick="runSimulation()">Simülasyonu Çalıştır</button>
+
+  <div id="results">
+    <div class="bold">Simülasyon Sonuçları</div>
+    <div>Orijinal Veri: <span id="originalData"></span></div>
+    <div>Hamming Kodu: <span id="hammingCode"></span></div>
+    <div>Hatalı Veri: <span id="faultyData"></span></div>
+    <div>Sendrom: <span id="syndrome"></span></div>
+    <div>Düzeltilmiş Veri: <span id="correctedData"></span></div>
+    <div>Hata Biti (varsa): <span id="errorBit"></span></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
