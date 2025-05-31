@@ -20,16 +20,5 @@ Bu proje, Hamming SEC-DED (Single Error Correcting, Double Error Detecting) algo
    ```bash
    git clone https://github.com/kullaniciadi/hamming-sec-ded-simulator.git
        ```
-## Simülatörü Kısaca Tanıtan Video
 
-https://youtu.be/oAhSa69CfxY
-
-## Simülasyon içi Görüntüler
-
-```markdown
-
-![Simülasyon Görseli](Goruntuler/Resim1.png)
-![Simülasyon Görseli](Goruntuler/Resim2.png)
-
-```
 
